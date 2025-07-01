@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Pessoal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <!-- Menu de navegação visível em todas as páginas -->
+      <ul>
+        <li><a href="#sobre">Sobre Mim</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Seção Sobre Mim -->
+    <section>
+      <h1 id="sobre">Sobre Mim</h1>
+      <p class="bio-text">
+        Olá! Meu nome é Murilo, tenho 21 anos e atualmente sou estudante do curso de Análise e Desenvolvimento de Sistemas na faculdade Uninter. Desde cedo, sempre tive curiosidade por entender como as coisas funcionam, especialmente no universo digital, o que naturalmente me levou a desenvolver uma verdadeira paixão pela tecnologia. 
+        Tenho me dedicado com entusiasmo à área de desenvolvimento web, onde encontro uma combinação perfeita entre lógica, criatividade e inovação. A cada novo projeto, busco me desafiar e aprender algo novo, explorando linguagens de programação, frameworks modernos e boas práticas de desenvolvimento. A constante evolução da tecnologia me motiva a nunca parar de estudar e acompanhar as tendências do mercado.
+        Fora do ambiente acadêmico e profissional, gosto de equilibrar minha rotina com atividades que me proporcionam bem-estar e criatividade. Sou apaixonado por desenhar, uma prática que me ajuda a expressar ideias de forma visual e relaxar a mente. Também gosto de jogar videogame, tanto por diversão quanto por admiração à complexidade dos jogos e seu desenvolvimento. Além disso, pratico musculação regularmente — algo que considero essencial para manter o foco, a disciplina e a saúde física e mental em dia.
+        Acredito que a tecnologia tem o poder de transformar vidas e criar soluções reais para o mundo. Meu objetivo é seguir crescendo na área de desenvolvimento, contribuindo com projetos que façam a diferença e, ao mesmo tempo, construindo uma carreira sólida, ética e alinhada com os meus valores.
+     </p>
+    </section>
+
+    <!-- Seção Formação -->
+    <section>
+      <h1 id="formacao">Formação</h1>
+      <ul>
+        <li>Curso: Análise e Desenvolvimento de Sistemas - Uninter</li>
+        <li>Idiomas: Português (nativo), Inglês (intermediário)</li>
+        <li>Habilidades: HTML, CSS, JavaScript, Git, GitHub</li>
+        <li>Interesses: Desenvolvimento Web, Design de Interfaces, Aprendizado Contínuo</li>   
+      </ul>
+    </section>
+
+    <!-- Seção Portfólio -->
+    <section>
+      <h1 id="portfolio">Portfólio</h1>
+      <p>Abaixo estão alguns projetos desenvolvidos por mim:</p>
+      <ul class="repo-list">
+        <li><a href="https://murilovmendes.github.io/Hora-do-dia/" target="_blank">Hora do Dia</a></li>
+        <li><a href="https://murilovmendes.github.io/Contador/" target="_blank">Contador</a></li>
+    </ul>
+        <p>Você pode ver mais projetos no meu <a href="https://github.com/MuriloVMendes" target="_blank" class="github-link">GitHub</a>.</p>
+    </section>
+
+    <!-- Seção Contato -->
+    <section>
+      <h1 id="contato">Contato</h1>
+      <form>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="5"></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Murilo Vieira Mendes Silva. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
